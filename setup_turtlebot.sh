@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change directory to the location of the file
-sudo cp src/turtlebot3/turtlebot3/turtlebot3_bringup/script/99-turtlebot3-cdc.rules /etc/udev/rules.d/ 
+sudo cp ros2 pkg prefix turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules /etc/udev/rules.d/
 
 # Start systemd-udevd daemon
 sudo /lib/systemd/systemd-udevd --daemon
