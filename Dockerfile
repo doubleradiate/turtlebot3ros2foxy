@@ -72,6 +72,7 @@ RUN apt-get update && apt-get install -y \
     ros-foxy-turtlebot3-msgs \
     ros-foxy-turtlebot3 \
     ros-foxy-dynamixel-sdk \
+    python3-argcomplete python3-colcon-common-extensions libboost-system-dev build-essential\
     libudev-dev && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
