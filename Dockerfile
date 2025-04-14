@@ -113,7 +113,7 @@ WORKDIR /home/${USER}
 USER ${USER}
 
 RUN mkdir work
-WORKDIR /home/${USER}/work
+WORKDIR /workspace
 
 CMD ["terminator"]
 USER $USER
