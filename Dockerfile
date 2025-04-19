@@ -86,7 +86,7 @@ RUN echo 'if [ -f /etc/bash_completion ]; then' >> /etc/bash.bashrc \
 
 # Set permanent environment variable
 RUN echo 'export LDS_MODEL=LDS-02' >> /etc/bash.bashrc \
-    && echo "source /opt/ros/foxy/install/setup.bash" >> /etc/bash.bashrc \
+    && echo "source /opt/ros/foxy/setup.bash" >> /etc/bash.bashrc \
     && echo 'export TURTLEBOT3_MODEL=burger' >> /etc/bash.bashrc \
     && echo "export ROS_DOMAIN_ID=11" >> /etc/bash.bashrc \
 
